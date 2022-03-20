@@ -5,6 +5,7 @@
   background-size: 200% 100%;
   background-position: bottom right;
   transition: all .5s ease-out;
+  border: none;
 }
 
 .list-group-item:hover {
