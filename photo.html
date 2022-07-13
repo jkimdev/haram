@@ -7,16 +7,69 @@
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/hover.action.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <title>HARAM</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: auto;
+        font-family: 'Playfair Display', serif;
+      }
+      
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        width: 33.3%;
+        padding: 10px;
+      }
+      
+      .column img {
+        margin-top: 12px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        text-align: center;
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      </style>
   </head>
   <body>
-
+    <div class="sticky-top">
+      <a href="index.html"><p class="h5 p-2" style="color: #243D25; background-color: #E8E1D9; margin-bottom: 0px;">HARAM</p></a>
+      </div>
     <div class="container-fluid">
-      
-    </div>
+    <!-- Photo Grid -->
+    <div class="row" style="background-color: #E8E1D9;"> 
+      <div class="column">
+      <img class="grid-image" src="/images/church.jpg" style="width:100%">
+      <img class="grid-image" src="/images/dive.jpg" style="width:100%">
+      <img class="grid-image" src="/images/flower.jpg" style="width:100%">
+      </div>
+      <div class="column">
+      <img class="grid-image" src="/images/forest.jpg" style="width:100%">
+      <img class="grid-image" src="/images/main.jpeg" style="width:100%">
+      <img class="grid-image" src="/images/person.jpg" style="width:100%">
+      </div>  
+      <div class="column">
+      <img class="grid-image" src="/images/sea.jpg" style="width:100%">
+      <img class="grid-image" src="/images/light.jpg" style="width:100%">
+      <img class="grid-image" src="/images/ocean.jpeg" style="width:100%">
 
+      </div>
+    </div>
+  </div>
     <script src="js/bootstrap.min.js"></script>
 
   </body>
