@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    width: 33.3%;
+    padding: 6px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+  }
